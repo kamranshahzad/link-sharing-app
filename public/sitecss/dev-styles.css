@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.loginRegistorFrms { padding:10px 0px 0px 10px; color:#F00;}
+.login-submit { cursor:pointer;}
+
+
+.settingsIcon a{
+	background: url(../siteimages/noti.png) no-repeat;
+	display:block;
+	height: 15px;
+	width: 12px;
+	padding-left:35px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.settingsIcon a:hover {
+	text-decoration:underline;
+}
+.notifyIcon a{
+	background: url(../siteimages/noti.png) no-repeat;
+	display:block;
+	height: 15px;
+	width: 12px;
+	padding-left:35px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.notifyIcon a:hover {
+	text-decoration:underline;
+}
+.logoutIcon a{
+	background: url(../siteimages/noti.png) no-repeat;
+	display:block;
+	height: 15px;
+	width: 12px;
+	padding-left:35px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.logoutIcon a:hover {
+	text-decoration:underline;
+}
+
+/* User logined Menus */
+
+#logedDropdowns{
+	background:#5a5a5a;
+	height:33px;
+}
+
+#logedDropdowns .submenu {
+	width:150px;
+	border:solid 1px #c9dea1;
+	border-top:none;
+	background:#FFFFFF;
+	position:absolute;
+	top:190px;
+	padding:6px 0;
+	clear:both;
+	z-index:2;
+	display:none;
+}
+#logedDropdowns .submenu li{
+background:none;
+display:block;
+float:none;
+margin:0 6px;
+border:0;
+height:auto;
+line-height:normal;
+}
+#logedDropdowns .submenu li a{
+background:none;
+display:block;
+float:none;
+padding:6px 6px;
+margin:0;
+border:0;
+height:auto;
+color:#105cbe;
+line-height:normal;
+}
+#logedDropdowns .submenu li a:hover{
+
+}
+
+#logedDropdowns .uparrow{
+	background: url(../siteimages/down_arrow.png) no-repeat;
+	display:block;
+	float:right;
+	height: 6px;
+	width: 12px;
+}

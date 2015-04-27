@@ -1,0 +1,145 @@
+
+
+body { font:Tahoma, Geneva, sans-serif; font-size:12px;}
+
+.adminWrapper { width:950px; margin:auto; }
+
+.adminOptionWrapper { border:#dedddd solid 1px; margin:10px;}
+.adminOptionWrapper .titleHeading { color:#ff8400; font-size:18px; padding:8px;}
+
+
+/*  @ mixed */
+.paggingWrapper { width:940px; text-align:center; padding:10px; color:#000; font-weight:bold; }
+.paggingWrapper a { color:#31a5ff; text-decoration:none; padding:3px;}
+.paggingWrapper a:hover{ text-decoration:underline;}
+
+/* @alerts*/
+.adminAlerts { padding:10px;}
+.adminAlerts .alertInfo { color:#333; font-size:11px; font-weight:bold; line-height:25px;}
+.adminAlerts .pollAlerts {font-size:12px; margin:10px; border:#f7f5f5 solid 1px;border-collapse: collapse; }
+.adminAlerts .pollAlerts .header{ background-color:#f7f5f5; font-weight:bold; padding:3px; color:#3c3b3b;}
+.adminAlerts .pollAlerts .columns { padding:3px;}
+.adminAlerts .pollAlerts .columns a { color:#000; font-weight:bold;}
+.adminAlerts .alertOption { padding:5px 0px 4px 15px;}
+.adminAlerts .alertOption a { color:#1bb6e9;}
+
+.adOptionBox {width:200px; margin:8px; background-color:#f4f4f4; float:left; padding:8px;}
+.adOptionBox .optionIcon { width:48px; float:left; }
+.adOptionBox .optionLinks{ width:140px; float:right;}
+.adOptionBox .optionLinks .linksHeading{ font-weight:bold; padding:5px;}
+.adOptionBox .optionLinks .linksHeading a { color:#333; text-decoration:none;}
+.adOptionBox .optionLinks .linksHeading a:hover {text-decoration:underline;}
+.adOptionBox .optionLinks .linksDetail { font-size:11px; line-height:15px; color:#666;}
+
+
+
+/* @ awaiting polls */
+.awaiting-poll-grd { font-size:12px; width:650px; border:#e8e6e6 solid 1px; margin:5px;}
+.awaiting-poll-grd .heading { font-weight:bold; padding:3px; border-bottom:#e8e6e6 solid 1px; background-color:#f4f4f4; color:#3c3b3b;}
+.awaiting-poll-grd .row { padding:5px; color:#4e4d4d;}
+.awaiting-poll-grd .row a { color:#646363; text-decoration:none; font-weight:bold;}
+.awaiting-poll-grd .row a:hover {text-decoration:underline;}
+.awaiting-poll-grd .row .action a { color:#1BB6E9;}
+
+/* @ home page : statis grid*/
+.statis-wrapper{width:600px;}
+.statis-wrapper .statisGrd{ font-size:12px; width:600px; border:#e8e6e6 solid 1px; margin:5px; }
+.statis-wrapper .statisGrd .even{ padding:5px; color:#545353; background:#f3f1f1; width:200px; font-weight:bold; font-size:11px;}
+.statis-wrapper .statisGrd .odd{ padding:5px; width:100px; background:#f9f7f7;}
+.statis-wrapper .link{ text-align:right;}
+.statis-wrapper .link a{ font-size:11px; font-weight:bold; color:#1BB6E9; text-decoration:none;}
+.statis-wrapper .link a:hover { text-decoration:underline;}
+/* @filter box */
+.adminFilterBox {}
+.adminFilterBox .titleHeading{color:#ff8400; font-size:16px; padding:5px 0px 0px 5px;}
+.adminFilterBox ul{list-style-type: none; text-align:center;}
+.adminFilterBox ul li{ display:inline; line-height:28px;}
+.adminFilterBox ul li a{ text-decoration: none; padding: .3em .7em; color: #ff8400; font-weight:bold;}
+.adminFilterBox ul li a:hover { color:#ff8400; text-decoration:underline;}
+
+
+
+
+
+/* @ quick menus */
+.adminQuickMenu { margin:5px; background:#f7f7f7; border:#f4f4f4 solid 1px; }
+.adminQuickMenu ul{list-style-type: none; text-align:center;}
+.adminQuickMenu ul li{ display:inline; line-height:28px;}
+.adminQuickMenu ul li a{ text-decoration: none; padding: .3em .7em; color: #000; font-weight:bold;}
+.adminQuickMenu ul li a:hover { color:#666; text-decoration:underline;}
+.adminQuickMenu .selecteOption { color:#C90;}
+
+
+/* @ buttons */
+.adminBtnMenu { text-align:right; margin:10px 5px;;}
+.adminBtnMenu .btnBox{ margin-right:10px;}
+.adminBtnMenu .btnBox a { padding:3px 10px;background-color:#3c3b3b; color:#FFF; font-weight:bold; text-decoration:none;}
+.adminBtnMenu .btnBox a:hover { text-decoration:none;background-color:#999;}
+
+/* Data Grid */
+.adminDataGrid { border:#CCC solid 1px; }
+.adminDataGrid table {border-collapse: collapse; font-size:12px;}
+.adminDataGrid table .header { background-color:#eae7e7; font-size:12px;font-weight:bold;}
+.adminDataGrid table td.odd { background-color:#fcfcfc;}
+
+.grdOptLinks { color:#000;}
+.grdOptLinks a{ color:#000;font-weight:bold; padding:3px 5px;}
+
+
+/* @ breadcrumb */
+.adminBreadcrumb { margin:5px;}
+.adminBreadcrumb a {  font-weight:bold; color:#000; text-decoration:none; }
+.adminBreadcrumb a:hover {  text-decoration:underline; }
+
+
+/* @ error messages */
+.errorMessages { text-align:center; padding:5px; font-size:11px; color:#F00;}
+
+
+/* @ error messages */
+.adminResMsg { text-align:center; padding:5px; color:#F00; font-weight:600;}
+
+
+/*  @ common styles */
+.breadcrumb { color:#336600; }
+.breadcrumb a { color:#336600; text-decoration:none;}
+.breadcrumb a:hover { color:#336600; text-decoration:underline;}
+
+.option-text a { font-weight:bold; text-decoration:none; color:#336600;}
+.option-text a:hover { font-weight:bold; text-decoration:underline; color:#336600;}
+.clear { clear:both; }
+
+.searchbutton { background-color:#ffa84b; border:none; cursor:pointer; padding:3px 10px;  font-weight:bold; color:#FFF;}
+		
+
+/* @ form errors */
+.error { display:inline !important; color:#F00 !important; font-weight:normal !important; margin:3px;}
+
+	
+.infoBox { border:#d9d6d6 solid thin; font-size:12px; padding:5px; font-weight:bold; text-align:left; margin-top:10px; }
+
+
+/*  Website Manager */
+.subTabBox {}
+.subTabBox .subIconBox{ width:130px; height:100px;float:left; }
+.subTabBox .subIconBox a { font-size:11px; color:#666; font-weight:bold; text-decoration:none;}
+.subTabBox .subIconBox a:hover { text-decoration:underline;}
+
+
+.optlinks a { color: #525151; text-decoration: none; font-weight:900;}
+.optlinks a:hover {text-decoration:underline;}
+
+/*  Notification bar */
+.alert-container {width:100%; background:#eae7e2; position:fixed; padding:5px 2px; z-index:9999;}
+.alert-container .alert-wrapper{ width:980px; margin:0 auto;}
+.alert-container .alert-wrapper .message-wrapper{ 
+	width:700px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:5px;
+	padding:3px;
+	 z-index:9999;
+}
+.alert-container .alert-wrapper .message-wrapper .notify-icon { float:left;}
+.alert-container .alert-wrapper .message-wrapper .notify-message { float:left; font-size:14px; color:#FFF; margin-top:4px; width:640px; }
+.alert-container .alert-wrapper .message-wrapper .notify-message a { color:#FFF; font-size:12px; font-weight:bold; text-decoration:none;}

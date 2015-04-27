@@ -1,0 +1,90 @@
+
+.adminFrmWrapper {padding: 0 10px 10px;}
+.adminFrmWrapper h1{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.2em;
+	border-bottom: 1px dotted #6b9ef1;
+	color: #535353;
+	margin-bottom: .7em;
+	text-align:left;
+}
+
+
+.adminFrmWrapper .frmDetails{ color:#930; font-style:italic;}
+.adminFrmWrapper .frmSubDetail { font-weight:bold;}
+.adminFrmWrapper .label {color: #797979;font-weight: 700;font-size:12px;line-height: 1.4em; font-style:normal;}
+.adminFrmWrapper label{
+	display: block;
+	color: #797979;
+	font-weight: 700;
+	font-size:12px;
+	line-height: 1.4em;
+}
+.adminFrmWrapper input[type="text"]{
+	width: 310px;
+	padding: 6px;
+	color: #666666;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+.adminFrmWrapper input[type="password"]{
+	width: 310px;
+	padding: 6px;
+	color: #666666;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+
+.adminFrmWrapper input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+.adminFrmWrapper textarea{
+	width: 550px;
+	height: 80px;
+	padding: 6px;
+	color: #666;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+.adminFrmWrapper textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+.adminFrmWrapper div{
+	margin-bottom: 10px;
+}
+.adminFrmWrapper .fieldDetails{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 12px;
+	font-style: italic;
+}
+.adminFrmWrapper div span.error{
+	color: #e46c6e;
+}
+.adminFrmWrapper #send{
+	background: #3c3b3b;
+	color: #fff;
+	padding:5px 10px;
+	font-weight: bold;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+	width:auto;
+}
+.adminFrmWrapper #send:hover{
+	background: #535353;
+}
+
+.adminFrmWrapper select {
+	padding: 3px;
+	color: #666666;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	border: 1px solid #cecece;
+}
